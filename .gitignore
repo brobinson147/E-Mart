@@ -1,0 +1,19 @@
+# Ignore build outputs
+/app/build/
+/build/
+
+# Gradle wrapper
+/gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Firebase / Google services
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
