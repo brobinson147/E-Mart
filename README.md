@@ -1,6 +1,7 @@
 # Emart
 
-![Project Badge](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
@@ -9,10 +10,14 @@
 * [Overview](#overview)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Prerequisites](#prerequisites)
+* [Getting Started](#getting-started)
+
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
 * [Usage](#usage)
 * [Project Structure](#project-structure)
 * [Available Scripts](#available-scripts)
+* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 
@@ -20,51 +25,71 @@
 
 ## Overview
 
-Emart is a modern Android application that provides a seamless shopping experience for users to browse, search, and purchase products.
-Built with Kotlin and Gradle, Emart features a clean architecture and modular codebase, making it easy to maintain and extend.
+Emart is a modern Android application delivering a seamless shopping experience. Users can browse, search, and purchase products with a clean, performant interface. Built with Kotlin and Gradle, Emart follows best practices in modularization and clean architecture.
 
-**Key goals:**
+**Key Goals:**
 
 * Fast, intuitive UI
-* Scalable code structure
-* Easy integration with backend services
+* Scalable, maintainable codebase
+* Easy integration with backend APIs
 
 ---
 
 ## Features
 
-* **Product Catalog**: Browse products organized by category
-* **Search & Filters**: Find items quickly with real-time search and filtering
-* **Shopping Cart**: Add, remove, and update product quantities
-* **User Authentication**: Secure sign-up, login, and profile management
+* **Product Catalog**: Browse items grouped by category
+* **Search & Filters**: Real-time search and dynamic filters
+* **Shopping Cart**: Add, remove, and update quantities
+* **Authentication**: Secure sign-up, login, and profile management
 * **Order History**: View past orders and reorder with one tap
-* **Offline Support**: Cached data for uninterrupted browsing
+* **Offline Mode**: Cached data ensures uninterrupted browsing
 
 ---
 
 ## Screenshots
 
+> *Coming soon!* Place your screenshots in `docs/screenshots/` and update the paths below.
+
 <p align="center">
   <img src="docs/screenshots/home.png" alt="Home Screen" width="200" />
-  <img src="docs/screenshots/product.png" alt="Product Detail" width="200" />
   <img src="docs/screenshots/cart.png" alt="Shopping Cart" width="200" />
 </p>
 
 ---
 
+## Getting Started
+
+Follow these steps to get a local copy up and running.
+
 ### Prerequisites
 
 * [Android Studio](https://developer.android.com/studio) (Arctic Fox or later)
-* Java Development Kit (JDK) 11+
-* Internet connection (for dependencies)
+* Java Development Kit (JDK) 11 or higher
+* Internet connection for downloading dependencies
 
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/<your-username>/Emart.git
+   cd Emart
+   ```
+2. **Open in Android Studio**
+
+   * Select **File → Open...** and choose the project directory.
+3. **Build the app**
+
+   * Click **Run** (Shift+F10) to compile and install on your emulator or device.
+
+---
 
 ## Usage
 
-* Navigate through categories from the home screen.
+* Launch the app to view the home screen with featured categories.
 * Tap a product to view details and add it to your cart.
-* Access the cart icon to review items and proceed to checkout.
-* Sign up or log in via the profile tab to view order history.
+* Access your cart via the top-right icon to review and checkout.
+* Navigate to the Profile tab to sign up, log in, or view order history.
 
 ---
 
@@ -72,34 +97,49 @@ Built with Kotlin and Gradle, Emart features a clean architecture and modular co
 
 ```
 Emart/
-├── app/                # Android app module
+├── app/                    # Android app module
 │   ├── src/main/
-│   │   ├── java/com/emart  # Kotlin source files
-│   │   └── res/             # Layouts, drawables, strings
+│   │   ├── java/           # Kotlin source files (com.emart)
+│   │   └── res/            # Layouts, drawables, strings
 │   └── build.gradle        # Module-level Gradle config
-├── gradle/             # Gradle wrapper files
-├── .gitignore          # Files to ignore in Git
-├── build.gradle        # Project-level Gradle config
-├── gradlew, gradlew.bat# Wrapper executables
-├── gradle.properties   # Global Gradle settings
-└── settings.gradle     # Repository settings
+├── docs/                   # Documentation and assets
+│   └── screenshots/        # App screenshots
+├── gradle/                 # Gradle wrapper
+├── .gitignore              # Git ignore rules
+├── build.gradle            # Project-level Gradle config
+├── gradlew, gradlew.bat    # Gradle wrapper executables
+├── gradle.properties       # Global Gradle settings
+└── settings.gradle         # Repo settings
 ```
 
 ---
 
 ## Available Scripts
 
-In the project directory, you can run:
+Run these commands from the project root:
 
 | Command                     | Description              |
 | --------------------------- | ------------------------ |
 | `./gradlew clean`           | Remove build directories |
 | `./gradlew assembleDebug`   | Compile debug APK        |
 | `./gradlew assembleRelease` | Compile release APK      |
-| `./gradlew test`            | Run unit tests           |
+| `./gradlew test`            | Execute unit tests       |
 
 ---
 
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/YourFeature`
+3. Make your changes and commit: `git commit -m 'Add feature'`
+4. Push to your branch: `git push origin feature/YourFeature`
+5. Open a pull request describing your changes
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
 
 ## License
 
@@ -109,4 +149,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-**Ben Robinson** – [@my Linkedin](https://www.linkedin.com/in/ben-robinson-211470194/) – [@my Email](benjrobinson1998@gmail.com)
+**Ben Robinson**
+
+* LinkedIn: [ben-robinson-211470194](https://www.linkedin.com/in/ben-robinson-211470194/)
+* Email: [benjrobinson1998@gmail.com](mailto:benjrobinson1998@gmail.com)
+
+Project Link: [https://github.com/](https://github.com/)<brobinson147>/Emart
