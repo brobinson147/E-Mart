@@ -51,8 +51,8 @@ Emart is a modern Android application delivering a seamless shopping experience.
 > *Coming soon!* Place your screenshots in `docs/screenshots/` and update the paths below.
 
 <p align="center">
-  <img src="docs/screenshots/home.png" alt="Home Screen" width="200" />
-  <img src="docs/screenshots/cart.png" alt="Shopping Cart" width="200" />
+  <img src="docs/screenshots/home.png.jpg" alt="Home Screen" width="200" />
+  <img src="docs/screenshots/cart.png.jpg" alt="Shopping Cart" width="200" />
 </p>
 
 ---
