@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "132280315701",
+    "firebase_url": "https://emart-464c8-default-rtdb.firebaseio.com",
+    "project_id": "emart-464c8",
+    "storage_bucket": "emart-464c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132280315701:android:2d62084e846c9185cda67c",
+        "android_client_info": {
+          "package_name": "com.mutuma.emart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZncdxwJm544RsMEIyS3pBMFtiTxh8_QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
